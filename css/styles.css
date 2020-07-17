@@ -92,6 +92,7 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.714;
@@ -196,16 +197,16 @@ body {
 }
 
 .section-title {
+    color: var(--title-text-color);
     font-weight: 900;
     font-size: 36px;
     line-height: 1.667;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
 }
 
 .heading {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
@@ -234,7 +235,6 @@ body {
 
 .contacts-info {
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     /* or 171% */
@@ -251,12 +251,49 @@ body {
 }
 
 .footer-tagline {
+    color: var(--primary-white-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.filter-btn {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.filter-btn:hover {
     color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.portfolio-card .card-header {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+
+.portfolio-card .card-label {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.875;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+}
+
+.portfolio-card .desc-text {
+    color: var(--primary-white-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    font-size: 18px;
+    line-height: 1.556;
+    /* or 156% */
+    letter-spacing: 0.03em;
 }
 
 
