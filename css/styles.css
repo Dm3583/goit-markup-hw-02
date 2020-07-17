@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v17-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/raleway-v17-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/raleway/raleway/raleway-v17-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/raleway/raleway-v17-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/raleway/raleway-v17-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/raleway/raleway-v17-latin-700.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* roboto-regular - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* roboto-500 - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v20-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-500.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* roboto-700 - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v20-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-700.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* roboto-900 - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v20-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/roboto-v20-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-900.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-900.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --secondary-bg-color: #f5f4fa;
+    --footer-bg: #2f303a;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.img-link:hover {
+    background-color: var(--accent-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+
+.activity-description {
+    font-size: 16px;
+    line-height: 1.187;
+    /* identical to box height */
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--footer-bg);
+}
+
+.logo {
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.logo .blue {
+    color: var(--accent-color);
+}
+
+.logo .black {
+    color: #000000;
+}
+
+.logo .white {
+    color: #ffffff;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-link.link:hover,
+.contacts-link.link:focus,
+.link.active {
+    color: var(--accent-color);
+}
+
+.site-nav .menu-item,
+.contacts-list .contacts-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+}
+
+.contacts-list .contacts-link {
+    color: var(--primary-text-color);
+}
+
+.hero {
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.btn {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages .heading {
+    color: var(--title-text-color);
+}
+
+.performance .heading {
+    text-align: center;
+    color: var(--primary-white-color);
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.name-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.contacts-info,
+.contacts-info.list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+}
+
+.contacts-info p {
+    color: var(--primary-white-color);
+    margin: 0;
+}
+
+.contacts-info .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tagline {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+
+/* menu-list menu-item */
