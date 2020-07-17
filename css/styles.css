@@ -232,8 +232,7 @@ body {
     color: var(--title-text-color);
 }
 
-.contacts-info,
-.contacts-info.list {
+.contacts-info {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
