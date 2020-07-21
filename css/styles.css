@@ -206,7 +206,7 @@ body {
 .btn {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 187% */
@@ -280,6 +280,12 @@ body {
 .filter-btn {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .filter-btn:hover {
