@@ -133,11 +133,17 @@ h3 {
 
 .hero-title {
   color: var(--white-background-color);
+  text-align: center;
 }
 
 .hero-button {
   color: var(--white-background-color);
   background-color: var(--primary-brand-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
 }
 
 .advantage-title {
