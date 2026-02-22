@@ -166,6 +166,11 @@ h3 {
   color: var(--dark-color);
 }
 
+.portfolio-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .portfolio-item-title {
   color: var(--dark-color);
 }
